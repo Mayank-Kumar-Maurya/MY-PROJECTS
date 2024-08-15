@@ -1,2 +1,2 @@
-# MY-CALCULATOR-PROJECT
-This file contains a working CALCULATOR codes using HTML, CSS, JS
+# MY-PROJECT
+This file contains a working CALCULATOR,[STONE,PAPER,SCISSOR] codes using HTML, CSS, JS.
