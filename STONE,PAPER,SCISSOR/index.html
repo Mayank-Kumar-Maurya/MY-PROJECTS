@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STONE PAPER SCISSOR</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="icon-img.jpg"/>
+</head>
+<body>
+    <h1>STONE,PAPER & SCISSOR</h1>
+
+    <div class="choices">
+        <div class="choice_container" id="Stone">
+            <img src="rock.png">
+        </div>
+        <div class="choice_container" id="Paper">
+            <img src="paper.png">
+        </div>
+        <div class="choice_container" id="Scissor">
+            <img src="scissors.png">
+        </div>
+
+    </div>
+
+    <div class="score">
+        <div class="score_container1">
+            <p id="user_score">0</p>
+            <p>YOU</p>
+        </div>
+        <div class="score_container2">
+            <p id="comp_score">0</p>
+            <p>COMP</p>
+        </div>
+    </div>
+    <div class="msg_container">
+        <p id="msg">PLAY YOUR MOVE</p>
+    </div>
+<div class="restart">
+    <button class="restart_btn"><i class="fa-solid fa-rotate-right"></i></button>
+</div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

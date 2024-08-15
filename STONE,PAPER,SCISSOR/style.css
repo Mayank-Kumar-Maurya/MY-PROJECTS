@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+body h1{
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #081b31;
+   color: white;
+}
+
+.choices{
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vmin;
+    gap:5rem;
+}
+.choice_container{
+    height: 31vh;
+    width: 31vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.choice_container:hover{
+    opacity: 0.8;
+      background-color:#081b31;
+      cursor:pointer;
+      /* box-shadow:0 0 0 0.2rem #081b31; */
+}
+.choice_container img{
+    height: 30vh;
+    width:30vh;
+    border-radius: 50%;
+    
+    object-fit: cover;
+
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:1.5rem ;
+    font-size: 2.5rem;
+    gap:5rem;
+}
+#user_score,#comp_score{
+    font-size: 4.5rem;
+}
+.msg_container{
+    font-size: 2.5rem;
+    margin-top: 1.2rem;
+    /* color: goldenrod */
+    color:white;
+}
+#msg{
+    background-color: #081b31;
+    display: inline;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+.restart{
+    
+    margin-top: 1.5rem;
+
+}
+.restart_btn{
+     
+    height: 3rem;
+    width: 10rem;
+    background-color: #081b31;
+    color: aliceblue;
+    font-size: 2rem;
+
+}
+
+
