@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    background-color: #C5E6A6;
+   text-align: center;
+}
+.toss_container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ h1{
+    font-size: 5rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.head{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image:url("head.png");
+    background-size:cover;
+    transition: 01s 1ms;
+    
+}
+.head:active{
+    transition: ms;
+    transition-duration: 2s;
+    transform: rotateX(1080deg);
+}
+.msg{
+    background-color: #188FA7;
+    display: inline;
+     font-size: 2.5rem;
+     font-weight: 500;
+     padding: 2rem;
+     border-radius: 2rem;
+     
+}
